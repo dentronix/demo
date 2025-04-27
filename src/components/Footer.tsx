@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Instagram, Facebook, Linkedin, Tooth } from 'lucide-react';
+import { Instagram, Facebook, Linkedin } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -11,7 +11,30 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center mb-4">
-              <Tooth className="h-6 w-6 text-primary mr-2" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="h-6 w-6 text-primary mr-2"
+              >
+                <path d="M12 5.5c-1.5-1-2-2-2.5-3 .5 1 2 2 2.5 3z" />
+                <path d="M10 7c-.5-1-1.5-2.5-2.5-3 .5 1.5 2 2 2.5 3z" />
+                <path d="M8.5 9c-1-1-2-1.5-3-1.5 1 .5 2 2 3 1.5z" />
+                <path d="M8 12c-1 0-2.5 0-3.5-.5 1.5.5 2 1.5 3.5.5z" />
+                <path d="M9 15c-1 1-1.5 2.5-1.5 3.5.5-1 2-1.5 1.5-3.5z" />
+                <path d="M12 17c0 1 0 3-1 4 1-1 2-2 1-4z" />
+                <path d="M15 15c1 .5 2 2 1.5 3.5.5-1.5 0-3-1.5-3.5z" />
+                <path d="M17 12c2 0 2.5 1.5 3 2-.5-1.5-2-2-3-2z" />
+                <path d="M16 8.5c1.5-.5 2.5-1.5 3-3-.5 1-2 2-3 3z" />
+                <path d="M13 7c.5-1.5 1.5-2.5 2.5-3-.5 1-1.5 2.5-2.5 3z" />
+                <circle cx="12" cy="12" r="3" />
+              </svg>
               <span className="text-xl font-bold">Sorriso Perfeito</span>
             </div>
             <p className="text-gray-300 mb-4">
